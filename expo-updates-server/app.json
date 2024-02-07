@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "custom-expo-updates-server",
+    "slug": "custom-expo-updates-server",
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "platforms": [],
+    "android": {
+      "package": "com.kindast.customexpoupdatesserver"
+    }
+  }
+}

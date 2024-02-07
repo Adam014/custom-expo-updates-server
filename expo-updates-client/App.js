@@ -1,14 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import Constants from 'expo-constants';
 
 export default function App() {
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app 3!</Text>
-      <Text>{Constants.expoConfig.name}</Text>
-      <Image source={require('./assets/favicon.png')} />
-      <StatusBar style="auto" />
+      <Text>New version</Text>
+      <Image source={require('./assets/favicon.png')} style={{marginTop: 20}}/>
+      <StatusBar hidden />
     </View>
   );
 }
